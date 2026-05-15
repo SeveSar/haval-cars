@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__row-col">
+                    <a href="#" class="header__logo">
+                        <div class="header__logo-col">
+                            <div class="header__logo-img1">
+                                <picture>
+                                    <source srcset="img/logo.webp" type="image/webp">
+                                    <img src="img/logo.png" class="header__logo-logo" alt="">
+                                </picture>
+                            </div>
+                        </div>
+
+                        <hr class="header__logo-line">
+                        <div class="header__logo-col">
+                            <div class="header__logo-img2">
+                                <picture>
+                                    <source srcset="img/logo2.webp" type="image/webp">
+                                    <img src="img/logo2.png" class="header__logo-logo" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="header__row-col header__row-col--mobile">
+                    <a class="header-phone" href="tel:+74957559990">
+                        <svg class="icon" viewBox="0 0 21 24">
+                            <use href="img/sprite.svg#tel"></use>
+                        </svg>
+                        <span>
+                            +7 (495) 755 99 90
+                        </span>
+                    </a>
+                </div>
+                <div class="header__row-col header__row-col--mobile">
+                    <address class="header-location">
+                        <svg class="icon" aria-hidden="true" viewBox="0 0 17 28">
+                            <use href="img/sprite.svg#location"></use>
+                        </svg>
+
+                        <div class="header-location__text">
+                            <div>
+                                МО, г. Химки, Ленинградское ш., вл.14 стр.1
+                            </div>
+                            <div>
+                                Часы работы с 09:00 до 21:00
+                            </div>
+                        </div>
+                    </address>
+                </div>
+
+                <button class="burger js-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <hr class="header__line">
+    <div class="header__bottom">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__col">
+                    <nav class="header__nav">
+                        <ul class="header-links">
+                            <li>
+                                <a href="">M6</a>
+                            </li>
+                            <li>
+                                <a href="">DARGO X</a>
+                            </li>
+                            <li>
+                                <a href="">DARGO</a>
+                            </li>
+                            <li>
+                                <a href="">JOLION</a>
+                            </li>
+                            <li>
+                                <a href="">F7x</a>
+                            </li>
+                            <li>
+                                <a href="">F7</a>
+                            </li>
+                            <li>
+                                <a href="">H9</a>
+                            </li>
+                            <li>
+                                <a href="">GWM Poer</a>
+                            </li>
+                            <li>
+                                <a href="">GWM Poer KINGKONG</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__col">
+                    <nav class="header-links">
+                        <a href="">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a>
+                        <a href="">ТЕСТ-ДРАЙВ</a>
+                        <a href="">КОНТАКТЫ</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="mobile js-menu">
+    <div class="mobile__body">
+        <div class="mobile__body-col">
+            <nav class="mobile__nav">
+                <ul class="header-links">
+                    <li>
+                        <a href="">M6</a>
+                    </li>
+                    <li>
+                        <a href="">DARGO X</a>
+                    </li>
+                    <li>
+                        <a href="">DARGO</a>
+                    </li>
+                    <li>
+                        <a href="">JOLION</a>
+                    </li>
+                    <li>
+                        <a href="">F7x</a>
+                    </li>
+                    <li>
+                        <a href="">F7</a>
+                    </li>
+                    <li>
+                        <a href="">H9</a>
+                    </li>
+                    <li>
+                        <a href="">GWM Poer</a>
+                    </li>
+                    <li>
+                        <a href="">GWM Poer KINGKONG</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile__body-col">
+            <nav class="header-links">
+                <a href="">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a>
+                <a href="">ТЕСТ-ДРАЙВ</a>
+                <a href="">КОНТАКТЫ</a>
+            </nav>
+        </div>
+    </div>
+    <div class="mobile__footer">
+        <div class="mobile__footer-row">
+            <div class="mobile__footer-col">
+                <a class="header-phone" href="tel:+74957559990">
+                    <svg class="icon" viewBox="0 0 21 24">
+                        <use href="img/sprite.svg#tel"></use>
+                    </svg>
+                    <span>
+                        +7 (495) 755 99 90
+                    </span>
+                </a>
+
+            </div>
+            <div class="mobile__footer-col">
+                <address class="header-location">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 17 28">
+                        <use href="img/sprite.svg#location"></use>
+                    </svg>
+
+                    <div class="header-location__text">
+                        <div>
+                            МО, г. Химки, Ленинградское ш., вл.14 стр.1
+                        </div>
+                        <div>
+                            Часы работы с 09:00 до 21:00
+                        </div>
+                    </div>
+                </address>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <div class="main">
+
+        <section class="intro">
+            <div class="intro__img">
+                <picture>
+                    <source srcset="img/intro.webp" type="image/webp">
+                    <img src="img/intro.png">
+                </picture>
+            </div>
+            <div class="container">
+                <div class="intro__inner">
+                    <h1 class="intro__text">
+                        <div>Увеличиваем выгоды на HAVAL</div>
+                        <div class="intro__text-light">в Химках к Чёрной пятнице!</div>
+                    </h1>
+                    <button class="button button--light button--medium intro__btn">
+                        Зафиксировать условия
+                    </button>
+                </div>
+
+
+            </div>
+        </section>
+        <div class="timer">
+            <div class="container">
+                <div class="timer__inner">
+
+                    <div class="timer__clock">
+                        <div class="timer__text">
+                            Оставьте заявку и зафиксируйте условия
+                        </div>
+                        <div class="sinoby-timer" data-sinoby-reserve="sinoby-j77nog" data-config='{
+                        "type": "fixed-end",
+                        "preset": "rings-soft",
+                        "schedule": {
+                            "endAt": "2026-06-01T00:00:00"
+                        },
+                        "style": {
+                            "digitGap": 19,
+                            "digitColor": "#000000",
+                            "labelSize": 18,
+                            "labelGap": 0,
+                            "labelColor": "#b9b9b9",
+                            "separatorSize": 40,
+                            "cardBackgroundColor": "rgba(243, 243, 243, 0)",
+                            "ringCurrentColor": "#00cabf",
+                            "ringRemainingColor": "#f3f3f3",
+                            "ringThickness": 8,
+                            "ringRadius": 18
+                        }
+                        }' data-lazy="true">
+                        </div>
+                    </div>
+
+                    <button class="button button--big button--light timer__btn">Зафиксировать условия</button>
+                </div>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="container">
+                <div class="catalog__inner">
+                    <div class="catalog__col">
+                        <article class="card">
+                            <div class="card__badge">
+                                В наличии
+                                <div>21 автомобиль</div>
+                            </div>
+                            <div class="card__heading">
+                                <div class="card__text">
+                                    <h2 class="card__title">
+                                        HAVAL M6
+                                    </h2>
+                                    <div class="card__action">
+                                        <div class="card__icon card__icon--light">
+                                            <svg class="icon" viewBox="0 0 16 16">
+                                                <use href="img/sprite.svg#pen"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="card__action-text">
+                                            Записаться
+                                            <br>
+                                            на тест-драйв
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__price">
+                                    Выгода до <span class="card__price-light">410 000 ₽</span>
+                                </div>
+                                <div class="card-slider card-slider-left card__slider">
+                                    <div class="swiper swiper-left">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a data-fancybox="gallery1" class="card__img"
+                                                    href="img/cars/m6-000000.png">
+                                                    <picture>
+                                                        <source srcset="img/cars/m6-000000.webp" type="image/webp">
+                                                        <img src="img/cars/m6-000000.png" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a data-fancybox="gallery1" class="card__img"
+                                                    href="img/cars/m6-E7E7E7.png">
+                                                    <picture>
+                                                        <source srcset="img/cars/m6-E7E7E7.webp" type="image/webp">
+                                                        <img src="img/cars/m6-E7E7E7.png" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a data-fancybox="gallery1" href="img/cars/m6-A1A1A1.png"
+                                                    class="card__img">
+                                                    <picture>
+                                                        <source srcset="img/cars/m6-A1A1A1.webp" type="image/webp">
+                                                        <img src="img/cars/m6-A1A1A1.png" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="card__body">
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 21 21">
+                                            <use href="img/sprite.svg#tag"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        Выгода
+                                        по госпрограмме
+                                    </div>
+                                </div>
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 18 18">
+                                            <use href="img/sprite.svg#gift"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        Максимальные <br>
+                                        выгоды по трейд-ин
+                                    </div>
+                                </div>
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 16 16">
+                                            <use href="img/sprite.svg#check"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        КАСКО в подарок
+                                    </div>
+                                </div>
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 18 18">
+                                            <use href="img/sprite.svg#car"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        Зимние шины в подарок
+                                    </div>
+                                </div>
+
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 19 19">
+                                            <use href="img/sprite.svg#wallet"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        Доп.оборудование <br>
+                                        на 100 000р в подарок
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__footer">
+                                <button class="button button--light">
+                                    Узнать стоимость
+                                </button>
+                                <button class="button button--dark">
+                                    Рассчитать кредит
+                                </button>
+                                <button class="button button--outline">
+                                    Подобрать комплектацию
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="catalog__col">
+                        <article class="card">
+                            <div class="card__badge">
+                                В наличии
+                            </div>
+                            <div class="card__heading">
+                                <div class="card__text">
+                                    <h2 class="card__title">
+                                        HAVAL M6
+                                    </h2>
+                                    <div class="card__action">
+                                        <div class="card__icon card__icon--light">
+                                            <svg class="icon" viewBox="0 0 16 16">
+                                                <use href="img/sprite.svg#pen"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="card__action-text">
+                                            Записаться
+                                            <br>
+                                            на тест-драйв
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__price">
+                                    Выгода до <span class="card__price-light">410 000 ₽</span>
+                                </div>
+                                <div class="card-slider card-slider-left card__slider">
+                                    <div class="swiper swiper-left">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="img/cars/dargo-ADADAD.png" class="card__img"
+                                                    data-fancybox="gallery">
+                                                    <picture>
+                                                        <source srcset="img/cars/dargo-ADADAD.webp" type="image/webp">
+                                                        <img src="img/cars/dargo-ADADAD.png" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="img/cars/dargo-000000.png" class="card__img"
+                                                    data-fancybox="gallery">
+                                                    <picture>
+                                                        <source srcset="img/cars/dargo-000000.webp" type="image/webp">
+                                                        <img src="img/cars/dargo-000000.png" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="img/cars/dargo-E7E7E7.png" class="card__img"
+                                                    data-fancybox="gallery">
+                                                    <picture>
+                                                        <source srcset="img/cars/dargo-E7E7E7.webp" type="image/webp">
+                                                        <img src="img/cars/dargo-E7E7E7.png" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="img/cars/dargo-A13A21.png" class="card__img"
+                                                    data-fancybox="gallery">
+                                                    <picture>
+                                                        <source srcset="img/cars/dargo-A13A21.webp" type="image/webp">
+                                                        <img src="img/cars/dargo-A13A21.png" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="card__body">
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 21 21">
+                                            <use href="img/sprite.svg#tag"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        Выгода
+                                        по госпрограмме
+                                    </div>
+                                </div>
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 18 18">
+                                            <use href="img/sprite.svg#gift"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        Максимальные <br>
+                                        выгоды по трейд-ин
+                                    </div>
+                                </div>
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 16 16">
+                                            <use href="img/sprite.svg#check"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        КАСКО в подарок
+                                    </div>
+                                </div>
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 18 18">
+                                            <use href="img/sprite.svg#car"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        Зимние шины в подарок
+                                    </div>
+                                </div>
+
+                                <div class="card__action card__action--interact">
+                                    <div class="card__icon card__icon--dark">
+                                        <svg class="icon" viewBox="0 0 19 19">
+                                            <use href="img/sprite.svg#wallet"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="card__action-text">
+                                        Доп.оборудование <br>
+                                        на 100 000р в подарок
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__footer">
+                                <button class="button button--light">
+                                    Узнать стоимость
+                                </button>
+                                <button class="button button--dark">
+                                    Рассчитать кредит
+                                </button>
+                                <button class="button button--outline">
+                                    Подобрать комплектацию
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+    <script src="//timer.sinoby.ru/public/assets/embed/timer-core.min.js?v=20260514a"></script>
+    <script src="js/libs/swiper-bundle.min.js" defer></script>
+    <script src="js/main.min.js" defer></script>
+</body>
+
+</html>
