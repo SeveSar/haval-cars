@@ -219,23 +219,20 @@
                         Зафиксировать условия
                     </button>
                 </div>
-
-
             </div>
         </section>
         <div class="timer">
             <div class="container">
                 <div class="timer__inner">
-
                     <div class="timer__clock">
                         <div class="timer__text">
                             Оставьте заявку и зафиксируйте условия
                         </div>
                         <div class="sinoby-timer" data-sinoby-reserve="sinoby-j77nog" data-config='{
-                        "type": "fixed-end",
+                       "type": "cyclic",
                         "preset": "rings-soft",
                         "schedule": {
-                            "endAt": "2026-06-01T00:00:00"
+                            "cyclePreset": "monthly"
                         },
                         "style": {
                             "digitGap": 19,
@@ -253,7 +250,6 @@
                         }' data-lazy="true">
                         </div>
                     </div>
-
                     <button class="button button--big button--light timer__btn">Зафиксировать условия</button>
                 </div>
             </div>
@@ -539,8 +535,8 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
     <script src="//timer.sinoby.ru/public/assets/embed/timer-core.min.js?v=20260514a"></script>
-    <script src="js/libs/swiper-bundle.min.js" defer></script>
-    <script src="js/main.min.js" defer></script>
+    <script src="js/libs/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 
 </html>
